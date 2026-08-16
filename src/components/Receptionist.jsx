@@ -8,7 +8,7 @@ const Receptionist = () => {
     const handleUpdate = async () => {
         try {
             await updateQueue(queueId, tokenNumber);
-            alert(`✅ Success! Token updated to ${tokenNumber}`);
+            alert(`✅ Success! Token updated to ${tokenNumber} ok`);
         } catch (error) {
             alert("❌ Error: Is the Backend running?");
             console.error(error);
