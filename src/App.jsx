@@ -15,6 +15,7 @@ function App() {
         </div>
 
         <Routes>
+          <Route path="/" element={<Receptionist />} />
           <Route path="/receptionist" element={<Receptionist />} />
           <Route path="/patient" element={<h2 className="text-center">Patient View (Coming Soon)</h2>} />
         </Routes>
